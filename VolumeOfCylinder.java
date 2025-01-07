@@ -6,9 +6,9 @@ class VolumeOfCylinder {
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
         System.out.println("Enter the Radius of Cylinder : ");
-        double radius=s.nextInt();
+        double radius=s.nextDouble();
         System.out.println("Enter the height of Cylinder : ");
-        double height=s.nextInt();
+        double height=s.nextDouble();
         System.out.println("Volume of the cylinder based on the input is : "+Volume(radius,height));
     }
 }
